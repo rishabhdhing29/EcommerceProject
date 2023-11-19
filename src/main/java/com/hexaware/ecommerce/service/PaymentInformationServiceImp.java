@@ -63,4 +63,9 @@ public class PaymentInformationServiceImp implements IPaymentInformationService 
 		return paymentRepo.findAll(Sort.by("paymentId"));
 	}
 
+	public PaymentInformation addPaymentInformation(PaymentInformation paymentInfo) {
+		// TODO Auto-generated method stub
+		return paymentRepo.save(paymentInfo);
+	}
+
 }

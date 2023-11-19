@@ -57,4 +57,9 @@ public class ProductServiceImp implements IProductService {
 		return productRepo.findAll(Sort.by("productName"));
 	}
 
+	public Product addProduct(Product product) {
+		// TODO Auto-generated method stub
+		return productRepo.save(product);
+	}
+
 }

@@ -1,5 +1,11 @@
 package com.hexaware.ecommerce.entities;
 
+
+/*
+Author : Rishabh Dhing
+Date   : 15-11-2023
+
+*/
 import java.time.LocalDate;
 
 import jakarta.persistence.Entity;

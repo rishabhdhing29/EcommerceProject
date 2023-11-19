@@ -63,4 +63,9 @@ public class CartServiceImp implements ICartService {
 		return cartRepo.findAll(Sort.by("cartId"));
 	}
 
+	public Cart saveCart(Cart cart) {
+		// TODO Auto-generated method stub
+		return cartRepo.save(cart);
+	}
+
 }

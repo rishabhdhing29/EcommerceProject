@@ -10,7 +10,11 @@ import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 
 
+/*
+Author : Rishabh Dhing
+Date   : 15-11-2023
 
+*/
 
 @Entity
 @Table(name="Cart_Details")

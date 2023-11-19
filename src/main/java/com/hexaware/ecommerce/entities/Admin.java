@@ -8,6 +8,13 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
+ 
+
+/*
+   Author : Rishabh Dhing
+   Date   : 15-11-2023
+
+*/
 
 @Entity
 @Table(name="Admin_Info")

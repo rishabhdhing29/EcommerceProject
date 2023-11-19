@@ -1,5 +1,11 @@
 package com.hexaware.ecommerce.entities;
 
+
+/*
+Author : Rishabh Dhing
+Date   : 15-11-2023
+
+*/
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToOne;
